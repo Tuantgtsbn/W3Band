@@ -1,0 +1,128 @@
+@media screen and (max-width:740px) {
+    .s-full-btn {
+        width: 100% !important;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav li {
+        display: block;
+        /*các menu-item đứng trên 1 dòng*/
+
+    }
+    /* .nav-right{
+        float: left;
+    } */
+    #nav li a {
+        display: block;
+    }
+    #nav .login{
+        display: block;
+        text-align: left;
+        position: initial;
+    }
+    #nav .login:hover{
+        background-color: #ccc;
+    }
+    #nav .login:hover i{
+        color:#000;
+    }
+
+    #header .search_btn {
+        /* display: none; */
+    }
+
+    #header .mobile-menu-btn {
+        display: block;
+    }
+
+    #nav>li:first-child {
+        /*Lấy ra phần tử con đầu tiên*/
+        display: inline-block;
+
+    }
+
+    #nav .subnav {
+        position: initial;
+    }
+
+    #nav li:hover .subnav a {
+        padding: 0px 35px;
+
+
+    }
+
+    #content .member-list {
+        display: block;
+    }
+
+    #content .img-item {
+        width: 60%;
+    }
+
+    #content .member-item {
+        width: 100%;
+    }
+
+    .member-list>.member-item:last-child img {
+        margin-bottom: 0px !important;
+    }
+
+    .place-item {
+        width: 100%;
+    }
+
+    .s-col-full {
+        width: 100% !important;
+    }
+
+    .contact-info {
+        margin-bottom: 16px;
+    }
+    #slider .content-heading{
+        font-size: 1em;
+        margin-bottom: 5px;
+    }
+    #slider .content-discription{
+        font-size: 1em;
+    }
+    .search-modal{
+        position: fixed;
+        top:46px;
+        /* display: inline-block; */
+        bottom: initial;
+        height:50px;
+        background-color: #000;
+        /* border-radius: 0; */
+
+    }
+    .search-modal .content{
+        /* all:unset; */
+        width: 100%;
+        position: initial;
+        transform: none;
+        animation: none;
+        /* padding: 0 0; */border-radius: 12px;
+        /* background-color: #000; */
+        border:1px solid #ccc;
+        background-color: #000;
+        
+
+    }
+    .search-modal .content input{
+        background-color: #000;
+        color: #fff;
+    }
+    .search-modal .content i{
+        color:#fff;
+    }
+    
+
+
+}
